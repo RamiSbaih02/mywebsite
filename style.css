@@ -1,0 +1,258 @@
+/* .pairant{
+    position: relative;
+}
+.img{
+    position: absolute;
+    z-index: 1;
+    box-shadow: 50px 50px;
+}
+.border{
+    position: absolute;
+    width:319px ;
+    height: 375px;
+    top: 10px;
+    left: 10px;
+    border: solid 10px yellow;
+}
+table{
+        border-collapse: collapse; عشان نلغي الفراغات بين الخانات الجدول
+}
+table td , th{
+    border: 2px solid gray;
+    padding: 15px;
+}
+table th {
+    background-color: lightcyan;
+    color: brown;
+}
+form{
+    background-color: rgb(235, 234, 234);
+    width: 250px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 35px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    align-items: center;
+}
+label{
+    color: gray;
+}
+input[type="text"], input[type="password"]{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+}
+input[type="submit"]{
+    background-color: rgb(2, 66, 66);
+    color: aliceblue;
+    border: 1px solid black;
+    width: 100%;
+    height: 35px;
+    text-transform: uppercase;
+    margin-top: 15px;
+} 
+.post{
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    border: 1px solid gray;
+    background-color: lavender;
+ }
+ .post:last-child{
+    position: relative;
+    left: 40px;
+    top: 50px;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden; /* يمنع ظهور scroll أفقي غير مرغوب */
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contr{
+    font-family: "Inria Serif", serif; ;
+    width: 33%;
+    background-color: #2B2B2B;
+    padding-bottom: 50px;
+}
+.contl{
+    font-family: "Inria Serif", serif;
+    width: 66%;
+    background-color: #EEECEC;
+    padding-bottom: 50px;
+}
+.kk
+{
+        margin-left:48px ;
+}
+.contlh {
+  margin-top: 32px;
+  margin-right: 80px;
+  border: none;
+  height: 3px;
+  background: linear-gradient(to left, #E2E0D6 0%, #E2E0D6 90%, #F09606 70%, #F09606 100%)
+  /* ;هادا معناته انو اتجاه التلوين من اليمين للشمال ف انا هيك قلتلو عبيلي من 0 بالمية ل 90 بالمية بلون وبعدها حطلي من 90 بالمية ل مية بالمية بالون التاني */
+} 
+.name{
+    padding-top: 0px;
+    margin-top: 80px;
+    font-size: 64px;
+    font-style: bold;
+}
+.desc{
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-style: italic;
+    color: #F09606;
+}
+.sum{
+    font-size: 48px;
+    font-style:italic;
+    font-weight: bold;
+    margin-top: 48px;
+}
+.mysum{
+font-style: italic;
+font-weight: bold;
+margin-left: -21px;
+margin-top: 30px;
+margin-right: 80px;
+text-align: center;
+}
+.e1{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-right: 80px;
+    margin-top: 30px;
+}
+.en{
+margin-top: 30px;
+font-size: 24px;
+font-style: italic;
+font-weight: bold;
+}
+.en , .ed{
+    margin: 0;
+}
+.place{
+margin-top: 30px;
+font-size: 24px;
+font-style: italic;
+font-weight: bold;
+color: #F09606;
+}
+li{
+    color: #7D7D7D;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left:20px ;
+    list-style-type: square;
+}
+li::marker{
+        color: #F09606;
+}
+a{
+    text-decoration: none;
+    color: #7D7D7D;
+   
+}
+.pic{
+    border: 2px #F09606 solid;
+    border-radius: 100%;
+    width: 128px;
+    height: 128px;
+    margin-top: 50px;
+    margin-left: 35%;
+}
+.secr{
+    margin-left: 50px;
+    margin-top: 30px;
+    color: #bebdbd;
+}
+.cont{
+    color: #F09606;
+    font-size: 16px;
+    margin-bottom:20px ;
+}
+.contrh{
+    width: 80%;
+    background: #7D7D7D;
+    border: none;
+    height: 2px;
+}
+.github{
+    text-decoration: none;
+    color: #bebdbd;
+}
+.skil{
+    margin-top: 20px;
+    border: 2px solid #F09606;
+    width: 86px;
+    height: 35px;
+    background-color: #4C4C4C;
+    color: white;
+    padding-top: 7px;
+    text-align: center;
+    margin-left: 20px;
+}
+.skils{
+    display: flex;
+    align-items: baseline;
+    margin-right: 80px;
+}
+.skils1{
+    display: flex;
+    align-items: baseline;
+    margin-right: 80px;
+}
+.pers{
+    margin-right: 80px;
+    margin-top: 25px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.persline1{
+    height: 4px;
+    width: 80%;
+    border: none;
+    background-color: #F09606;
+    margin-top: 15px;
+}
+.persline2{
+    height: 4px;
+    width: 80%;
+    border: none;
+    background: linear-gradient(to left,#7D7D7D 0%,#7D7D7D 70% ,#F09606 0%,#F09606 100% );
+    margin-top: 15px;
+}
+.persline3{
+    height: 4px;
+    width: 80%;
+    border: none;
+    margin-top: 15px;
+    background: linear-gradient(to left,#7D7D7D 0%,#7D7D7D 10%, #F09606 0%, #F09606 100%);
+}
+.contlang{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 80%;
+    margin-top: 20px;
+}
+.contlang h5{
+    color: white;
+}
